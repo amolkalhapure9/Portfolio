@@ -27,7 +27,6 @@ img{
        width:260px;
        text-align: center;
        align-items: center;
-      background-image:url(/Assets/images/imagebacknav.jpg);
 
     }
     #content-wrapper{
@@ -170,7 +169,11 @@ box-shadow:-6px 6px rgb(255, 255, 11);
         width:85%;
         animation: Bootstrap 3s;
     }
-    
+    .SpringBoot{
+        width:75%;
+        animation: SpringBoot 3s;
+    }
+
     @keyframes java {
         0%{
             width:0%;
@@ -234,9 +237,40 @@ box-shadow:-6px 6px rgb(255, 255, 11);
             width:85%;
         }
     }
-    
-    
+    @keyframes SpringBoot{
+        0%{
+            width:0%;
+        }
+        100%{
+            width:75%;
+        }
+    }
+
+
     /* End of My skills */
+
+    .java12{
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .java12:hover{
+        transform: translateY(-4px);
+        box-shadow: 2px 6px rgb(243, 156, 217);
+    }
+    .bar span{
+        background: linear-gradient(90deg, #f39cd9, #b301ee);
+    }
+
+    .project img{
+        transition: transform 0.4s ease;
+        overflow: hidden;
+    }
+    .project .iconbox{
+        overflow: hidden;
+        border-radius: inherit;
+    }
+    .project:hover img{
+        transform: scale(1.08);
+    }
    
 
 
