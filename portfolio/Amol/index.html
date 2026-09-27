@@ -1,381 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amol Kalhapure</title>
-  
-    <link rel="shortcut icon" class="rounded-4" href="../Assets/images/avatar.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="../Assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="../Assets/css/aos.css">    
-<link rel="stylesheet" href="../Assets/css/line-awesome.min.css">
-<link rel="stylesheet" href="../Assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amol Kalhapure · Software Engineer</title>
+  <meta name="description" content="Amol Kalhapure is a Software Engineer at Bitwise Global in Pune, building backend services and microservices with Java and Spring Boot.">
+  <meta name="theme-color" content="#0b1120">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Amol Kalhapure · Software Engineer">
+  <meta property="og:description" content="Java & Spring Boot backend engineer. Microservices, REST APIs and reliable systems.">
 
-<!--  -->
+  <link rel="icon" href="../Assets/images/favicon.svg" type="image/svg+xml">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-<!--  -->
-<!-- <link rel="stylesheet" href=""> -->
+  <link rel="stylesheet" href="../Assets/css/portfolio.css">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
-<body data-bs-spy="scroll" data-bs-target=".navbar">
-    <!-- Navbar -->
+<body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container flex-lg-column">
-          <a class="navbar-brand h3 fw-bold d-block d-lg-none " href="#Amolkalhapure">Amol Kalhapure</a>
-          <img src="../Assets/images/avatar.svg" class="d-none d-lg-block my-5 rounded-circle" alt="Amol Kalhapure">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  me-auto mb-2 mb-lg-0 flex-lg-column">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#service">Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Work">Project</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Blog">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
-              </li>
-             
-             
-              
-            </ul>
-            
+  <!-- Icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z"/><path d="M17.5 6.5h.01"/></g></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></g></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></g></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2Z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></g></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></g></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></g></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#top" class="logo" aria-label="Amol Kalhapure, back to top">
+        <span class="logo__bracket">&lt;</span>AK<span class="logo__bracket"> /&gt;</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav__menu" id="navMenu">
+        <ol class="nav__links">
+          <li><a href="#about"><span>01.</span>About</a></li>
+          <li><a href="#experience"><span>02.</span>Experience</a></li>
+          <li><a href="#skills"><span>03.</span>Skills</a></li>
+          <li><a href="#projects"><span>04.</span>Projects</a></li>
+          <li><a href="#contact"><span>05.</span>Contact</a></li>
+        </ol>
+        <a href="../AmolK_CV.pdf" class="btn btn--outline btn--sm" target="_blank" rel="noopener">Resume</a>
+      </div>
+    </nav>
+  </header>
+  <div class="nav__overlay" id="navOverlay"></div>
+
+  <!-- Side rails (desktop) -->
+  <aside class="rail rail--left" aria-label="Social links">
+    <ul>
+      <li><a href="https://github.com/amolkalhapure9" target="_blank" rel="noopener" aria-label="GitHub"><svg><use href="#i-github"/></svg></a></li>
+      <li><a href="https://www.linkedin.com/in/amol-kalhapure-a6ab4622a/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a></li>
+      <li><a href="https://www.instagram.com/amolkalhapure9/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-instagram"/></svg></a></li>
+      <li><a href="mailto:amolkalhapure99@gmail.com" aria-label="Email"><svg><use href="#i-mail"/></svg></a></li>
+    </ul>
+  </aside>
+  <aside class="rail rail--right" aria-label="Email">
+    <a href="mailto:amolkalhapure99@gmail.com" class="rail__email">amolkalhapure99@gmail.com</a>
+  </aside>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true"><div class="hero__glow" id="heroGlow"></div></div>
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__eyebrow reveal"><span class="status-dot"></span>Software Engineer @ Bitwise Global</p>
+          <h1 class="hero__title reveal">Amol Kalhapure.</h1>
+          <h2 class="hero__subtitle reveal">I build backends that <span class="accent-text" id="typed">scale.</span><span class="caret" aria-hidden="true"></span></h2>
+          <p class="hero__lead reveal">
+            I'm a Java backend engineer in Pune, India. I design REST APIs, microservices and data models with
+            <strong>Spring Boot</strong>, and I care about code that stays readable, testable and reliable in production.
+          </p>
+          <div class="hero__cta reveal">
+            <a href="#projects" class="btn btn--primary">View my work <svg><use href="#i-arrow"/></svg></a>
+            <a href="../AmolK_CV.pdf" class="btn btn--outline" download>Download CV <svg><use href="#i-download"/></svg></a>
           </div>
         </div>
-      </nav>
 
-    <!--/Navbar-->
-<!-- Content wrapper -->
-<div id="content-wrapper">
-  <section id="Home" class="section1 full-height px-lg-5   ">
-    <video autoplay muted loop id="myVideo">
-      <source src="../Assets/images/black_-_13495 (720p).mp4" type="video/mp4">
-    </video>
-    <div class="container px-lg-5">
+        <div class="code-card reveal" aria-label="A Java class describing Amol">
+          <div class="code-card__bar">
+            <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+            <span class="code-card__file">Amol.java</span>
+          </div>
+<pre class="code-card__body"><code><span class="c-ann">@RestController</span>
+<span class="c-kw">public class</span> <span class="c-type">Amol</span> <span class="c-kw">implements</span> <span class="c-type">Engineer</span> {
 
-        <div class="row">
-            <div class="col-lg-8">
-                <h1 style="color:white" data-aos="fade-up">Hii, I am <b style="color:rgb(225, 225, 9)">Amol Kalhapure</b>, Software Engineer.</h1>
-                <p style="color:white" data-aos="fade-up" data-aos-delay="300">I'm a Software Engineer at Bitwise Global, focused on Java backend development. I enjoy building reliable, well-structured software and continuously sharpening my skills across the stack.</p>
-                <div  data-aos="fade-up" data-aos-delay="600">
-                  <a href="#Work" class="btn btn-brand" style="color:white; border:1px solid white">Explore My Work</a>
-                <a href="#Contact" class="link-custom">contact: (9370675971)</a>
-                </div>
-                <div class="icon mt-4" data-aos="fade-up" data-aos-delay="900">
-                  <a href="https://www.instagram.com/amolkalhapure9/"><i class="lab la-instagram insta rounded-3" style="color:white;font-size:32px"></i></a>
-                  <a href="https://www.linkedin.com/in/amol-kalhapure-a6ab4622a/"><i class="lab la-linkedin linkedin rounded-3" style="color:white;font-size:32px"></i></a>
-                  <i class="lab la-twitter twitter rounded-3" style="color:white;font-size:32px"></i>
-                </div>
+    <span class="c-kw">private final</span> <span class="c-type">String</span> role    = <span class="c-str">"Software Engineer"</span>;
+    <span class="c-kw">private final</span> <span class="c-type">String</span> company = <span class="c-str">"Bitwise Global"</span>;
+    <span class="c-kw">private final</span> <span class="c-type">String</span> city    = <span class="c-str">"Pune, India"</span>;
+
+    <span class="c-kw">private final</span> <span class="c-type">List</span>&lt;<span class="c-type">String</span>&gt; stack = <span class="c-type">List</span>.<span class="c-fn">of</span>(
+        <span class="c-str">"Java"</span>, <span class="c-str">"Spring Boot"</span>, <span class="c-str">"MySQL"</span>,
+        <span class="c-str">"Kafka"</span>, <span class="c-str">"Redis"</span>, <span class="c-str">"Docker"</span>);
+
+    <span class="c-ann">@GetMapping</span>(<span class="c-str">"/status"</span>)
+    <span class="c-kw">public</span> <span class="c-type">String</span> <span class="c-fn">status</span>() {
+        <span class="c-kw">return</span> <span class="c-str">"Shipping reliable backends ☕"</span>;
+    }
+}</code></pre>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll to About"><span></span></a>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title reveal"><span>01.</span>About me</h2>
+
+        <div class="about">
+          <div class="about__text reveal">
+            <p>
+              Hi! I'm Amol, a <strong>Software Engineer at Bitwise Global</strong>, where I build and maintain backend services
+              and REST APIs with Java and Spring Boot. Day to day I design SQL schemas, tune queries, debug production issues and
+              review code with my team.
+            </p>
+            <p>
+              Outside work I build things to learn how larger systems fit together: a microservices platform with an API gateway,
+              service discovery and circuit breakers; an event-driven fitness tracker on Kafka; and a real-time skill-exchange app
+              with WebSockets and Redis caching.
+            </p>
+            <p>
+              I hold a <strong>B.E. in Information Technology</strong> from P.E.S. Modern College of Engineering, Pune.
+              When I'm not coding, I'm probably playing cricket, swimming, reading or travelling.
+            </p>
+
+            <ul class="stats">
+              <li><strong>2+</strong><span>years at Bitwise Global</span></li>
+              <li><strong>20+</strong><span>public repositories</span></li>
+              <li><strong>8.57</strong><span>CGPA, B.E. IT</span></li>
+            </ul>
+          </div>
+
+          <div class="about__card reveal">
+            <div class="avatar" aria-hidden="true"><span>AK</span></div>
+            <h3>Amol Sanjay Kalhapure</h3>
+            <p class="muted mono">Java Backend Engineer</p>
+            <ul class="facts">
+              <li><svg><use href="#i-pin"/></svg>Pune, Maharashtra, India</li>
+              <li><svg><use href="#i-mail"/></svg><a href="mailto:amolkalhapure99@gmail.com">amolkalhapure99@gmail.com</a></li>
+              <li><svg><use href="#i-phone"/></svg><a href="tel:+919370675971">+91 93706 75971</a></li>
+            </ul>
+            <div class="about__edu">
+              <p class="mono label">Education</p>
+              <p><strong>B.E. Information Technology</strong><br>P.E.S. Modern College of Engineering, SPPU<br><span class="muted">2021 – 2024 · CGPA 8.57</span></p>
             </div>
-        </div>
-    </div>
-</section>
-<hr style="color:white">
-
-<section id="about" >
-  <div class="container px-lg-5">
-<div class="row">
- <h6 style="color:rgb(241, 254, 0)">About me</h6>
-</div>
-<div class="aboutme mt-5">
-  <h3 class="pt-3" style="color:white">About Me</h3>
-  <p class="pt-2 pb-3" style="color:white;font-size: larger;">I'm Amol Kalhapure, a Software Engineer at Bitwise Global specializing in Java backend development. I hold a B.E. in Information Technology from PES's Modern College of Engineering, Pune. I work efficiently both as an individual contributor and as part of a team, and I enjoy building REST APIs, working with databases, and picking up new tools along the way. My goal is to keep growing as an engineer while delivering reliable, well-crafted software.</p>
-</div>
-<div class="information">
-<div class="myinfo mt-4" style="color:rgb(179, 1, 238); font-size: larger;">
-  <h3 style="color:white">My Information</h3>
-  <ul>
-   <li>Name: Amol Sanjay Kalhapure</li>
-   <li>Role: Software Engineer at Bitwise Global</li>
-   <li>Education: B.E. IT, PES's Modern College Of Engineering, Pune</li>
-   <li>Phone: +91 9370675971</li>
-   <li>Email: amolkalhapure99@gmail.com</li>
-   <li>City: Pune, Maharashtra</li>
-   <li>Hobbies: Playing Cricket, Listening Songs, Traveling</li>
-   <button  class="btn btn-brand mt-4" style="color:white; border:1px solid white;color:rgb(179, 1, 238) ;"><a href="../AmolK_CV.pdf" download>Download CV</a></button>
-  </ul>
- </div>
-
- <div class="internships mt-4" style="color:rgb(179, 1, 238); font-size: larger;">
-  <h3 style="color:white">Experience</h3>
-  <li>Software Engineer at Bitwise Global <span style="font-size:small">(Aug 2024 &ndash; Present)</span></li>
-  <p>Developing and maintaining Java backend services and REST APIs, writing SQL queries, and collaborating with cross-functional teams.</p>
-  <li>Web Developer Intern at Oasis Infobyte <span style="font-size:small">(Mar 2023 &ndash; Apr 2023)</span></li>
-  <p>Developed and deployed static websites using HTML, CSS, JavaScript, and Express.js.</p>
-
- </div>
-
-
-  </div>
-</div>
-  
-</section>
-<hr style="color:white">
-<section id="service" class="full-height px-lg-5" >
-<div class="container px-lg-5 ">
- <div class="row pb-4">
-  <div class="col-lg-8">
-    <!-- <h1 style="color:#242e30">Hello friends following are some servies that we are providing for you</h1> -->
-    <h6 style="color:rgb(212, 245, 138)" data-aos="fade-up" >services</h6>
-    <h1 style="color:white" data-aos="fade-up" >Services that I provide</h1>
-
-  </div>
- </div>
-
- <div class="row">
-  <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-    <div class="service bg-base rounded-4  shadow-effect">
-      <div class="iconbox">
-        <i class="las la-feather mb-3 rounded-3" style="background-color: yellow; font-size: 39px;"></i>
-        <h4 style="color:white" >Web designing</h4>
-        <p style="color:white">We are provideing you best web designs for your business, educational purpose and many more </p>
-        <a href="#" class="link-custom">Read More</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
-    <div class="service bg-base rounded-4  shadow-effect">
-      <div class="iconbox">
-        <i class="las la-laptop mb-3 rounded-3" style="background-color: yellow; font-size: 39px;"></i>
-        <h4 style="color:white" >Web designing</h4>
-        <p style="color:white">We are provideing you best web designs for your business, educational purpose and many more </p>
-        <a href="#" class="link-custom">Read More</a>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="col-md-4" data-aos="fade-up" data-aos-delay="900">
-    <div class="service bg-base rounded-4  shadow-effect">
-      <div class="iconbox">
-        <i class="lab la-java mb-3 rounded-3" style="background-color: yellow; font-size: 39px;"></i>
-        <h4 style="color:white" >Java Developer</h4>
-        <p style="color:white">We are provideing you best web designs for your business, educational purpose and many more </p>
-        <a href="#" class="link-custom">Read More</a>
-      </div>
-    </div>
-  </div>
-
-
-
-
- </div>
-
-</div>
-</section>
-<hr style="color:white">
-
-<section id="Work" class="full-height px-lg-5"  >
-  <div class="container px-lg-5">
-    <div class="row pb-4">
-      <div class="col-lg-8">
-        <!-- <h1 style="color:#242e30">Hello friends following are some projects that we are created for you</h1> -->
-        <h6 style="color:yellow" data-aos="fade-up" >Projects</h6>
-        <h1 style="color:white" data-aos="fade-up" >Projects created by me </h1>
-
-      </div>
-    </div>
-   <div class="row">
-    <div class="col-lg-4 project"  data-aos="fade-up" data-aos-delay="300">
-      <div class="service bg-base rounded-4  shadow-effect">
-        <div class="iconbox">
-          <img class="rounded-4"  style="width:100%"  src="../Assets/images/demo.jpg" alt="Online Library project screenshot">
-        </div>
-        <div class="content">
-          <h4 class="pt-3" style="color:white">Online Library</h4>
-          <p style="color:white">A dynamic website to login and register and issue books online. </p>
-          <a href="#" class="link-custom">Read More</a>
-          
+            <div class="about__edu">
+              <p class="mono label">Certifications</p>
+              <p>SPARK in AWS Workshop <span class="muted">(2023)</span><br>WordPress &amp; the Content Creator Economy <span class="muted">(2023)</span></p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-lg-4 project" data-aos="fade-up" data-aos-delay="600">
-      <div class="service bg-base rounded-4  shadow-effect">
-        <div class="iconbox">
-          <img class="rounded-4"  style="width:100%"  src="../Assets/images/demo2.jpg" alt="Core Java project screenshot">
-        </div>
-        <div class="content ">
-          <h4 class="pt-3" style="color:white">Core Java</h4>
-          <p style="color:white">A static website that include basic concepts of core java</p>
-          <a href="http://learntocoding.com/index.html" class="link-custom">Read More</a>
-          
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 project" data-aos="fade-up" data-aos-delay="900">
-      <div class="service bg-base rounded-4  shadow-effect">
-        <div class="iconbox">
-          <img class="rounded-4"  style="width:100%"  src="../Assets/images/demo.jpg" alt="Landing Page project screenshot">
-        </div>
-        <div class="content">
-          <h4 class="pt-3" style="color:white">Landing Page</h4>
-          <p style="color:white">A static website created by HTML, CSS, Bootstrap and JavaScript</p>
-          <a href="#" class="link-custom">Read More</a>
-          
-        </div>
-      </div>
-    </div>
-   
-   </div>
-    
-  </div>
-</section>
-<hr style="color: white;">
+    </section>
 
-<!-- <section id="Skills" class=" full-height px-lg-5" style="height: 100vh;">
-  <div class="container px-lg-5">
-    <div class="row">
-      <h6 style="color: rgb(226, 237, 3);">Skills</h6>
-      <h1 style="color:white">My Skills</h1>
-      <div class="col-lg-5 ">
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="container container--narrow">
+        <h2 class="section__title reveal"><span>02.</span>Where I've worked</h2>
+
+        <div class="tabs reveal">
+          <div class="tabs__list" role="tablist" aria-label="Jobs">
+            <button class="tabs__tab" role="tab" id="tab-bitwise" aria-controls="panel-bitwise" aria-selected="true">Bitwise Global</button>
+            <button class="tabs__tab" role="tab" id="tab-oasis" aria-controls="panel-oasis" aria-selected="false" tabindex="-1">Oasis Infobyte</button>
+            <span class="tabs__indicator" aria-hidden="true"></span>
+          </div>
+
+          <div class="tabs__panel" role="tabpanel" id="panel-bitwise" aria-labelledby="tab-bitwise">
+            <h3>Software Engineer <span class="accent-text">@ Bitwise Global</span></h3>
+            <p class="mono muted range">Aug 2024 – Present · Pune</p>
+            <ul class="ticks">
+              <li>Develop and maintain backend services and REST APIs using Java and Spring Boot.</li>
+              <li>Design and optimize SQL queries and relational database schemas for application features.</li>
+              <li>Work with cross-functional teams to turn requirements into working software.</li>
+              <li>Debug production issues and take part in code reviews to keep code quality high.</li>
+            </ul>
+            <ul class="tags"><li>Java</li><li>Spring Boot</li><li>REST APIs</li><li>SQL</li><li>Git</li></ul>
+          </div>
+
+          <div class="tabs__panel" role="tabpanel" id="panel-oasis" aria-labelledby="tab-oasis" hidden>
+            <h3>Web Developer Intern <span class="accent-text">@ Oasis Infobyte</span></h3>
+            <p class="mono muted range">Mar 2023 – Apr 2023 · Remote</p>
+            <ul class="ticks">
+              <li>Built and deployed static websites using HTML, CSS and JavaScript.</li>
+              <li>Developed a Library Management System with Node.js, Express and MongoDB.</li>
+              <li>Built a task-management web app, a personal portfolio and a Java Swing chat application.</li>
+            </ul>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li><li>Express</li><li>MongoDB</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section__title reveal"><span>03.</span>Tech I work with</h2>
+
         <div class="skills">
-          
-              <li><h5 style="color:white">Java</h5></li>
-              <span class="bar"><span class="java"></span></span>
-           
-         <li><h5 style="color:white">CPP</h5></li>
-         <span class="bar"><span class="cpp"></span></span>
-         <li><h5 style="color:white">MySQL</h5></li>
-         <span class="bar"><span class="mysql"></span></span>
-         <li><h5 style="color:white">JavaScript</h5></li>
-         <span class="bar"><span class="JavaScript"></span></span>
-         <li><h5 style="color:white">Git</h5></li>
-         <span class="bar"><span class="git"></span></span>
+          <article class="skill-card reveal">
+            <p class="skill-card__label mono">// languages</p>
+            <h3>Languages</h3>
+            <ul class="chips"><li>Java</li><li>JavaScript</li><li>SQL</li><li>C++</li></ul>
+          </article>
+          <article class="skill-card skill-card--wide reveal">
+            <p class="skill-card__label mono">// backend</p>
+            <h3>Backend &amp; Architecture</h3>
+            <ul class="chips"><li>Spring Boot</li><li>Spring Security</li><li>Spring Cloud</li><li>Hibernate / JPA</li><li>REST APIs</li><li>Microservices</li><li>JWT</li><li>WebSocket</li><li>Node.js</li><li>Express.js</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <p class="skill-card__label mono">// data</p>
+            <h3>Data &amp; Messaging</h3>
+            <ul class="chips"><li>MySQL</li><li>PostgreSQL</li><li>MongoDB</li><li>Redis</li><li>Kafka</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <p class="skill-card__label mono">// devops</p>
+            <h3>DevOps &amp; Tools</h3>
+            <ul class="chips"><li>Docker</li><li>Jenkins</li><li>Kubernetes</li><li>Prometheus</li><li>Maven</li><li>Git</li><li>Linux</li><li>Postman</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <p class="skill-card__label mono">// frontend</p>
+            <h3>Frontend</h3>
+            <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li><li>Thymeleaf</li></ul>
+          </article>
         </div>
-      
       </div>
-      
-    </div>
+    </section>
 
-  </div>
-</section> -->
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title reveal"><span>04.</span>Things I've built</h2>
 
-<!-- dsfs -->
-<section id="Skills" class=" full-height px-lg-5" style="height: 100vh;">
-  
-  <div class="container px-lg-5">
-    <h6 style="color:yellow" data-aos="fade-up">Skills</h6>
-    <h1 class="pb-4" style="color:white" data-aos="fade-up">LANGUAGES AND FRAMEWORKS</h1>
-    <div class="skills">
-      <div class="row">
-       <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="0">
-         <div class="java12" style="">
-           <h5 style="color:rgb(250, 245, 245)">Java</h5>
-             <span class="bar"><span class="java"></span></span>
-         </div>
+        <!-- Featured: SkillSwap -->
+        <article class="feature reveal">
+          <div class="feature__visual">
+            <div class="arch" aria-label="Architecture: browser to Spring Boot API, backed by MySQL, Redis and WebSocket">
+              <div class="arch__col"><span class="node">Browser</span></div>
+              <div class="arch__link"></div>
+              <div class="arch__col"><span class="node node--main">Spring Boot API<small>Security · JWT</small></span></div>
+              <div class="arch__link"></div>
+              <div class="arch__col"><span class="node">MySQL</span><span class="node">Redis cache</span><span class="node">WebSocket</span></div>
+            </div>
+            <div class="arch__foot"><span class="node node--ghost">Prometheus metrics</span><span class="node node--ghost">Docker Compose</span></div>
+          </div>
+          <div class="feature__body">
+            <p class="feature__kicker mono">Featured project</p>
+            <h3 class="feature__title">SkillSwap</h3>
+            <div class="feature__desc">
+              <p>A full-stack skill-exchange platform where people offer, request and learn skills from each other. Users
+                search for tutors, send skill requests and chat in real time.</p>
+              <p>Secured with Spring Security and JWT, cached with Redis, instrumented with Prometheus and shipped as a
+                Docker Compose stack.</p>
+            </div>
+            <ul class="tags"><li>Spring Boot</li><li>Spring Security</li><li>JPA</li><li>WebSocket</li><li>Redis</li><li>MySQL</li><li>Docker</li></ul>
+            <div class="feature__links">
+              <a href="https://github.com/amolkalhapure9/skillswap-backend" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg>Backend</a>
+              <a href="https://github.com/amolkalhapure9/skillswap-frontend" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg>Frontend</a>
+            </div>
+          </div>
+        </article>
 
-       </div>
-       <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
-         <div class="java12">
-           <h5 style="color:rgb(239, 235, 235)">JavaScript</h5>
-             <span class="bar"><span class="JavaScript"></span></span>
-         </div>
+        <!-- Featured: SentinelX -->
+        <article class="feature feature--flip reveal">
+          <div class="feature__visual">
+            <div class="arch" aria-label="Architecture: client to API gateway, routing to auth and payment services">
+              <div class="arch__col"><span class="node">Client</span></div>
+              <div class="arch__link"></div>
+              <div class="arch__col"><span class="node node--main">API Gateway<small>JWT · Resilience4j</small></span></div>
+              <div class="arch__link"></div>
+              <div class="arch__col"><span class="node">Auth Service</span><span class="node">Payment Service</span></div>
+            </div>
+            <div class="arch__foot"><span class="node node--ghost">Eureka discovery</span><span class="node node--ghost">Config Server</span></div>
+          </div>
+          <div class="feature__body">
+            <p class="feature__kicker mono">Featured project</p>
+            <h3 class="feature__title">SentinelX</h3>
+            <div class="feature__desc">
+              <p>A Spring Cloud microservices system. A reactive API gateway checks JWTs and routes traffic to independent Auth and
+                Payment services, which find each other through Eureka and load settings from a central Config Server.</p>
+              <p>Resilience4j circuit breakers stop one failing service from bringing down the rest.</p>
+            </div>
+            <ul class="tags"><li>Spring Cloud Gateway</li><li>Eureka</li><li>Config Server</li><li>Resilience4j</li><li>JWT</li><li>MySQL</li></ul>
+            <div class="feature__links">
+              <a href="https://github.com/amolkalhapure9/sentinelxSystem" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg>Source</a>
+            </div>
+          </div>
+        </article>
 
-       </div>
-       <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="150">
-         <div class="java12">
-           <h5 style="color:rgb(235, 230, 230)">C++</h5>
-             <span class="bar"><span class="cpp"></span></span>
-         </div>
+        <!-- Featured: HealthTrack -->
+        <article class="feature reveal">
+          <div class="feature__visual">
+            <div class="arch" aria-label="Architecture: activity service publishes events to Kafka, consumed by a recommendation service">
+              <div class="arch__col"><span class="node">User Service<small>PostgreSQL</small></span><span class="node">Activity Service<small>MongoDB</small></span></div>
+              <div class="arch__link"></div>
+              <div class="arch__col"><span class="node node--main">Kafka<small>activity events</small></span></div>
+              <div class="arch__link"></div>
+              <div class="arch__col"><span class="node">AI Recommendation Service</span></div>
+            </div>
+            <div class="arch__foot"><span class="node node--ghost">Eureka discovery</span></div>
+          </div>
+          <div class="feature__body">
+            <p class="feature__kicker mono">Featured project</p>
+            <h3 class="feature__title">HealthTrack</h3>
+            <div class="feature__desc">
+              <p>An event-driven fitness tracking platform. When a user logs a workout, the Activity service publishes an event to
+                Kafka, and a separate recommendation service consumes it to generate personalised suggestions.</p>
+              <p>Each service owns its data (PostgreSQL for users, MongoDB for activities) and registers with Eureka.</p>
+            </div>
+            <ul class="tags"><li>Spring Boot</li><li>Kafka</li><li>MongoDB</li><li>PostgreSQL</li><li>WebFlux</li><li>Eureka</li></ul>
+            <div class="feature__links">
+              <a href="https://github.com/amolkalhapure9/HealthTrack" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg>Source</a>
+            </div>
+          </div>
+        </article>
 
-       </div>
-       <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
-         <div class="java12">
-           <h5 style="color:rgb(247, 242, 242)">MySQL</h5>
-             <span class="bar"><span class="mysql"></span></span>
-         </div>
+        <h3 class="subhead reveal">Other noteworthy projects</h3>
 
-       </div>
-       <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="250">
-        <div class="java12">
-          <h5 style="color:rgb(247, 242, 242)">git</h5>
-            <span class="bar"><span class="git"></span></span>
+        <div class="grid">
+          <a class="card reveal" href="https://github.com/amolkalhapure9/authservice" target="_blank" rel="noopener">
+            <div class="card__top"><svg class="card__folder"><use href="#i-folder"/></svg><svg class="card__ext"><use href="#i-github"/></svg></div>
+            <h4>AuthService</h4>
+            <p>A standalone authentication service with a custom JWT filter in the Spring Security chain, email verification at sign-up, request validation and unit tests.</p>
+            <ul class="tags tags--sm"><li>Spring Security</li><li>JWT</li><li>Spring Mail</li><li>Thymeleaf</li></ul>
+          </a>
+          <a class="card reveal" href="https://github.com/amolkalhapure9/WebTrafficTimeSeriesForecasting" target="_blank" rel="noopener">
+            <div class="card__top"><svg class="card__folder"><use href="#i-folder"/></svg><svg class="card__ext"><use href="#i-github"/></svg></div>
+            <h4>Web Traffic Forecasting</h4>
+            <p>Forecasts Wikipedia page views with ARIMA and LSTM models, compares the two, and serves predictions through a small Flask web app.</p>
+            <ul class="tags tags--sm"><li>Python</li><li>LSTM</li><li>ARIMA</li><li>Flask</li></ul>
+          </a>
+          <a class="card reveal" href="https://github.com/amolkalhapure9/Jenkins-Docker_Project" target="_blank" rel="noopener">
+            <div class="card__top"><svg class="card__folder"><use href="#i-folder"/></svg><svg class="card__ext"><use href="#i-github"/></svg></div>
+            <h4>Jenkins + Docker CI/CD</h4>
+            <p>A Maven Java web app used to practise CI/CD, with automated builds in Jenkins and packaging with Docker.</p>
+            <ul class="tags tags--sm"><li>Jenkins</li><li>Docker</li><li>Maven</li><li>JSP</li></ul>
+          </a>
+          <a class="card reveal" href="https://github.com/amolkalhapure9/KUBERNETES" target="_blank" rel="noopener">
+            <div class="card__top"><svg class="card__folder"><use href="#i-folder"/></svg><svg class="card__ext"><use href="#i-github"/></svg></div>
+            <h4>Kubernetes Playground</h4>
+            <p>Hands-on notes and manifests covering core Kubernetes concepts, run on local clusters with Kind.</p>
+            <ul class="tags tags--sm"><li>Kubernetes</li><li>Kind</li><li>YAML</li></ul>
+          </a>
+          <a class="card reveal" href="https://github.com/amolkalhapure9/Bank-Management-System" target="_blank" rel="noopener">
+            <div class="card__top"><svg class="card__folder"><use href="#i-folder"/></svg><svg class="card__ext"><use href="#i-github"/></svg></div>
+            <h4>Bank Management System</h4>
+            <p>A desktop banking application with user registration, login, account management and transaction history, stored in MySQL.</p>
+            <ul class="tags tags--sm"><li>Java Swing</li><li>AWT</li><li>MySQL</li></ul>
+          </a>
+          <a class="card reveal" href="https://github.com/amolkalhapure9/Landing-Page" target="_blank" rel="noopener">
+            <div class="card__top"><svg class="card__folder"><use href="#i-folder"/></svg><svg class="card__ext"><use href="#i-github"/></svg></div>
+            <h4>Landing Page</h4>
+            <p>A responsive marketing landing page built from scratch with semantic HTML, modern CSS and vanilla JavaScript.</p>
+            <ul class="tags tags--sm"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          </a>
         </div>
 
-      </div>
-      <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="java12">
-          <h5 style="color:rgb(247, 242, 242)">Bootstrap</h5>
-            <span class="bar"><span class="Bootstrap"></span></span>
+        <div class="center reveal">
+          <a href="https://github.com/amolkalhapure9?tab=repositories" class="btn btn--outline" target="_blank" rel="noopener">See all on GitHub <svg><use href="#i-external"/></svg></a>
         </div>
-
       </div>
-      <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="350">
-        <div class="java12">
-          <h5 style="color:rgb(247, 242, 242)">NodeJS</h5>
-            <span class="bar"><span class="NodeJS"></span></span>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container container--narrow">
+        <p class="contact__eyebrow mono reveal">05. What's next?</p>
+        <h2 class="contact__title reveal">Let's build something together.</h2>
+        <p class="contact__lead reveal">
+          Have a role, a project or just a question about Java and Spring? My inbox is always open,
+          and I'll get back to you as soon as I can.
+        </p>
+        <div class="contact__actions reveal">
+          <a href="mailto:amolkalhapure99@gmail.com" class="btn btn--primary btn--lg"><svg><use href="#i-mail"/></svg>Say hello</a>
+          <button class="btn btn--ghost" id="copyEmail" type="button"><svg><use href="#i-copy"/></svg><span>Copy email</span></button>
         </div>
-
+        <ul class="contact__links reveal">
+          <li><a href="https://www.linkedin.com/in/amol-kalhapure-a6ab4622a/" target="_blank" rel="noopener"><svg><use href="#i-linkedin"/></svg>LinkedIn</a></li>
+          <li><a href="https://github.com/amolkalhapure9" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg>GitHub</a></li>
+          <li><a href="tel:+919370675971"><svg><use href="#i-phone"/></svg>+91 93706 75971</a></li>
+        </ul>
       </div>
-      <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
-        <div class="java12">
-          <h5 style="color:rgb(247, 242, 242)">Spring Boot</h5>
-            <span class="bar"><span class="SpringBoot"></span></span>
-        </div>
+    </section>
+  </main>
 
-      </div>
-      </div>
-      </div>
+  <footer class="footer">
+    <ul class="footer__social">
+      <li><a href="https://github.com/amolkalhapure9" target="_blank" rel="noopener" aria-label="GitHub"><svg><use href="#i-github"/></svg></a></li>
+      <li><a href="https://www.linkedin.com/in/amol-kalhapure-a6ab4622a/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a></li>
+      <li><a href="https://www.instagram.com/amolkalhapure9/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-instagram"/></svg></a></li>
+      <li><a href="mailto:amolkalhapure99@gmail.com" aria-label="Email"><svg><use href="#i-mail"/></svg></a></li>
+    </ul>
+    <p class="mono">Designed &amp; built by Amol Kalhapure · © <span id="year">2026</span></p>
+  </footer>
 
-  </div>
-</section>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<!-- zdszd -->
-
-<hr style="color:white">
-<section id="Contact" class="full-height px-lg-5" style="height:100vh">
-  <div class="container px-lg-5 ">
-    <h1 style="color:#242e30;">Feel free to contact with me</h1>
-    <div class="form" style="width:60% ;margin:180px auto">
-    <form action="" method="post" style="text-align: center; ">
-     <h6 style="color:yellow;text-align: center;">Contact</h6>
-     <h1 style="color:white;text-align: center;">Feel free to contact with me</h1>
-     <div class="name"><input class="name1 " type="text" name="name1" placeholder="Enter your name" style="color:white" >
-     </div>
-     <div class="email1"><input class="email  " type="email" name="email" placeholder="Enter your Email" style="color:white"></div>
-     <div class="msg1"><textarea class="msg " name="msg" id="msg" cols="30" rows="4" placeholder="Enter message" style="color: white;"></textarea></div>
-     <div class="btn1"><button class="btn " class="btn btn-brand" style="color:white; border:1px solid white">Send</button></div>
-    </form>
-  </div>
-  </div>
-</section>
-
-</div>
-
-<div class="footer">
-  <h5>Made with ❤️ by Amol</h5>
-  <p><i class="las la-copyright"></i>2026|All rights reserved</p>
-</div>
-
-
-
-
-
-    
-    
+  <script src="../Assets/js/portfolio.js"></script>
 </body>
-<script src="../Assets/js/bootstrap.bundle.min.js"></script>
-<script src="../Assets/js/aos.js"></script>
-<script src="../Assets/js/main.js"></script>
-
 </html>
